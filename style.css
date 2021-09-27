@@ -1,14 +1,19 @@
-header{
+header {
     margin-top: 0px;
     margin-right: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
 }
-h1{
+
+h1 {
     font-size: 4rem;
     text-align: center;
 }
 
-form{
+form {
+    text-align: center;
+}
+
+footer {
     text-align: center;
 }
