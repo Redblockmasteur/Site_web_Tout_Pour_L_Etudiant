@@ -70,6 +70,7 @@ header, footer{
     display: flex;
     justify-content: space-evenly;
     margin: 10px 0px;
+    background: url(etudiant.png);
 }
 
 section{
