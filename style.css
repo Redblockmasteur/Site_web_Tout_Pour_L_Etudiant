@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
@@ -97,4 +98,13 @@ section{
     cursor: pointer;
     display: flex;
 
+}
+
+footer{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 20px;
+}
+
+address{
+    font-style: normal;
 }
