@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-li, a, .header_btn{
+ul.liens_header , a, .header_btn{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -101,11 +101,40 @@ section{
 
 }
 
-footer{
-    font-family: 'Noto Sans Mono', monospace;
-    font-size: 20px;
+a.footer_link, .footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
+input#e-mail{
+    width: 66%;
+    float: left;
+    border-radius: 0px; 
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.bnt_input{
+    color: white;
+    padding: 3px 5px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    font-size: 0,9rem;
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: inline;
+    width: 30%;
+}
+.bnt_input:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
 address{
     font-style: normal;
+    clear: both;
 }
