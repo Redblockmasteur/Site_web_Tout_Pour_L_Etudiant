@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul.liens_header , a, .header_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    min-height: 15%;
+    width: 100%;
+}
+
+header, footer{
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #edf0f1;
+}
+
+
+.header_logo{
+    height: 40px;
+}
+
+
+.liens_header,li{
+    list-style: none;
+}
+
+.liens_header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.liens_header li a{
+    transition: all 0.3s ease 0s;
+}
+.liens_header li a:hover{
+    color: #0088a9;    
+}
+
+.header_btn{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: inline;
+    width: 20%;
+
+}
+.header_btn:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    background: url(etudiant.png);
+}
+
+section{
+    width: 32%;
+    min-height: 400px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section_botom{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.voir_plus{
+    padding: 7px 20px;
+    background-color: #F5B700;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+a.footer_link, .footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+input#e-mail{
+    width: 66%;
+    float: left;
+    border-radius: 0px; 
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.bnt_input{
+    color: white;
+    padding: 3px 5px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    font-size: 0,9rem;
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: inline;
+    width: 30%;
+}
+.bnt_input:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+address{
+    font-style: normal;
+    clear: both;
+}
