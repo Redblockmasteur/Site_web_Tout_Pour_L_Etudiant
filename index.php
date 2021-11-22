@@ -73,7 +73,7 @@
             catch(PDOException $e){
                 echo "Erreur : " . $e->getMessage();
             }
-            /*J'usqu'ici ca marche*/
+            /*requête SQL*/
             $sql = 'SELECT * FROM article';   
             $req = $pdo->query($sql); 
         ?>
@@ -134,8 +134,6 @@
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
