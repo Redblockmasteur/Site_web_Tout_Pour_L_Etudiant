@@ -2,21 +2,20 @@
 <html lang="fr">
 
 <head>
-    <!-- Head -->
     <? include 'essentials/head.php' ?>
-    <title>Tout pour l'étudiant</title>
+    <title>Articles au hasard</title>
+
 </head>
 
 <body>
-    <!-- top navbar  -->
+    <!-- Navigation-->
     <? include 'essentials/navbar.php' ?>
-
     <!-- Header-->
     <header class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">Tout pour L'étudiant</h1>
-                <p class="lead fw-normal text-white-50 mb-0">Trouve ce dont tu as besoin</p>
+                <p class="lead fw-normal text-white-50 mb-0">Tout les articles</p>
             </div>
         </div>
     </header>
@@ -41,12 +40,10 @@
             echo "Erreur : " . $e->getMessage();
         }
         //SQL requests
-        $sql = 'SELECT * FROM article';   
-        $req = $pdo->query($sql); 
+        $sql = 'SELECT * FROM article order by RAND() LIMIT 3';   
+        $req = $pdo->query($sql);
     ?>
-
-    
-<!-- Section article -->
+    <!-- Section article -->
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -75,7 +72,8 @@
                     </div>
                 </div>
 
-                <? }
+                </tr>
+                <? }   
                     $req->closeCursor();   
                 ?>
             </div>

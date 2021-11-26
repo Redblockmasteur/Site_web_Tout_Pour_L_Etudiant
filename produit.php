@@ -35,7 +35,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <? include 'essentials/head.php' ?>
         <title> <? echo $titre_article ?> </title>
